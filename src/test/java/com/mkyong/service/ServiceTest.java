@@ -45,7 +45,7 @@ import com.mkyong.dao.StatusEnum;
 
 
 
-@RunWith(SpringRunner)
+@RunWith(SpringRunner.class)
 @SpringBootTest(classes = { SpringBootWebApplication.class })
 //@DataJpaTest
 //@ContextConfiguration(classes = { HelloWorldConfiguration.class }, loader = AnnotationConfigWebContextLoader.class)
